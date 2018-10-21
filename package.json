@@ -1,0 +1,8 @@
+{
+  "name": "NodeBoilerPlate",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/tueve/NodeBoilerPlate.git",
+  "author": "Tue Vu <vu.tue.1710@gmail.com>",
+  "license": "MIT"
+}
