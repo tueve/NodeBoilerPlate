@@ -1,9 +1,9 @@
 const { port, env } = require('./vars')
 const app = require('./express')
-// const mongoose = require('./config/mongoose');
+const mongoose = require('./mongoose')
 
 // open mongoose connection
-// mongoose.connect();
+mongoose.connect()
 
 // listen to requests
 app.listen(port, () => console.info(`server started on port ${port} (${env})`))
